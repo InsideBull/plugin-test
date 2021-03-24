@@ -19,5 +19,13 @@
     "gatsby-plugin"
   ],
   "author": "Kyle Gill <kyle.robert.gill@gmail.com>",
-  "license": "0BSD"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InsideBull/plugin-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/InsideBull/plugin-test/issues"
+  },
+  "homepage": "https://github.com/InsideBull/plugin-test#readme"
 }
