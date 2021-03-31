@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-plugin",
+  "name": "gatsby-plugin-replay",
   "version": "1.0.0",
   "description": "Gatsby plugin",
   "main": "index.js",
@@ -12,5 +12,13 @@
     "gatsby-plugin"
   ],
   "author": "Andry Radimsion",
-  "license": "0BSD"
+  "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InsideBull/plugin-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/InsideBull/plugin-test/issues"
+  },
+  "homepage": "https://github.com/InsideBull/plugin-test#readme"
 }
