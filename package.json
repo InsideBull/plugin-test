@@ -1,15 +1,8 @@
 {
-  "name": "player-jw",
+  "name": "gatsby-starter-plugin",
   "version": "1.0.0",
-  "description": "A minimal boilerplate for the essential files Gatsby looks for in a plugin",
+  "description": "Gatsby plugin",
   "main": "index.js",
-  "dependencies": {
-    "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "react-jw-player": "^1.19.1"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "echo \"No build script setup\""
@@ -18,14 +11,6 @@
     "gatsby",
     "gatsby-plugin"
   ],
-  "author": "Kyle Gill <kyle.robert.gill@gmail.com>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/InsideBull/plugin-test.git"
-  },
-  "bugs": {
-    "url": "https://github.com/InsideBull/plugin-test/issues"
-  },
-  "homepage": "https://github.com/InsideBull/plugin-test#readme"
+  "author": "Andry Radimsion",
+  "license": "0BSD"
 }
