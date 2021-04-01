@@ -11,4 +11,6 @@
  *
  * See: https://www.gatsbyjs.com/docs/creating-a-local-plugin/#developing-a-local-plugin-that-is-outside-your-project
  */
-exports.onPreInit = () => console.log("Loaded gatsby-plugin-replay")
+exports.onPreInit = (_, pluginOptions) => {
+    localStorage.setItem('data', pluginOptions.message)
+}
