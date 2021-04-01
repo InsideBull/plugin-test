@@ -11,8 +11,12 @@
  *
  * See: https://www.gatsbyjs.com/docs/creating-a-local-plugin/#developing-a-local-plugin-that-is-outside-your-project
  */
-exports.onPreInit = (_, pluginOptions) => {
+/*exports.onPreInit = (_, pluginOptions) => {
     console.log(
       `logging: "${pluginOptions.message}" to the console`
     )
-}
+}*/
+
+exports.onPreInit(_, pluginOptions => {
+    console.log('',pluginOptions.message)
+})
